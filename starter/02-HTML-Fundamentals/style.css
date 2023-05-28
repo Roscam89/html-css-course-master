@@ -1,0 +1,79 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 22px;
+}
+
+#author {
+  font-style: italic;
+  font-size: 14px;
+}
+#copy {
+  font-size: 13px;
+  text-align: end;
+}
+#related-posts {
+  font-size: 17px;
+  text-align: center;
+}
+.related-author {
+  font-size: 12px;
+  font-weight: bold;
+}
+.related-posts-list {
+  list-style: none;
+}
+.top-header {
+  background-color: #cac5c5;
+}
+
+aside {
+  background-color: #cac5c5;
+  border: 5px solid #1098ad;
+  border-left: none;
+  border-right: none;
+}
+
+/* .bottom-header :nth-child(3) {
+  color: red;
+} */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
