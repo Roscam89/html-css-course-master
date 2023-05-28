@@ -1,12 +1,35 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-li {
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
   font-family: sans-serif;
   color: #444;
+}
+.top-header {
+  background-color: #cac5c5;
+  margin: 15px 15px;
+  padding: 20px 20px;
+}
+
+.bottom-header {
+  padding: 20px 20px;
+  margin: 20px 20px;
+}
+.code-magazine {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+aside {
+  background-color: #cac5c5;
+  border: 5px solid #1098ad;
+  border-left: none;
+  border-right: none;
+  margin: 10px 10px;
+  padding: 50px 0px;
 }
 
 h1,
@@ -15,25 +38,25 @@ h3 {
   color: #1098ad;
 }
 
-h1 {
-  font-size: 20px;
-  font-style: italic;
+.basic-language {
+  font-size: 28px;
+  padding: 15px;
 }
 
-h2 {
-  font-size: 28px;
-}
-h3 {
+.what-is {
   font-size: 22px;
+  padding: 20px;
 }
 
 #author {
   font-style: italic;
   font-size: 14px;
+  margin: 10px;
 }
 #copy {
   font-size: 13px;
   text-align: end;
+  margin: 10px 10px;
 }
 #related-posts {
   font-size: 17px;
@@ -46,15 +69,9 @@ h3 {
 .related-posts-list {
   list-style: none;
 }
-.top-header {
-  background-color: #cac5c5;
-}
-
-aside {
-  background-color: #cac5c5;
-  border: 5px solid #1098ad;
-  border-left: none;
-  border-right: none;
+article {
+  padding: 5px;
+  margin: 5px;
 }
 
 /* .bottom-header :nth-child(3) {
@@ -76,4 +93,9 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+ul,
+ol {
+  margin-left: 20px;
 }

@@ -1,0 +1,53 @@
+body {
+  border: 5px solid black;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(228, 219, 219);
+}
+
+p {
+  font-weight: bolder;
+}
+
+.price {
+  font-size: 32px;
+}
+.shipping {
+  text-transform: uppercase;
+  font-size: smaller;
+  color: grey;
+}
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  font-weight: bold;
+  list-style: square;
+}
+.add-cart-button {
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: larger;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.product-details {
+  text-transform: uppercase;
+}
