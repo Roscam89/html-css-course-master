@@ -6,6 +6,13 @@
 body {
   font-family: sans-serif;
   color: #444;
+  /* position: relative; */
+}
+
+.container {
+  width: 700px;
+
+  margin: 0 auto;
 }
 .top-header {
   background-color: #cac5c5;
@@ -29,7 +36,7 @@ aside {
   border: 5px solid #1098ad;
   border-left: none;
   border-right: none;
-
+  position: relative;
 }
 
 h1,
@@ -40,7 +47,7 @@ h3 {
 
 .basic-language {
   font-size: 28px;
-  padding: 15px;
+  margin-bottom: 20px;
 }
 
 .what-is {
@@ -74,6 +81,7 @@ h3 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: larger;
+  position: relative;
 }
 article {
   padding: 25px;
@@ -107,12 +115,23 @@ ol {
   margin-bottom: 20px;
   padding-top: 15px;
 }
+ul,
+ol:last-child {
+  margin-bottom: 0;
+}
 
 p {
   margin-bottom: 10px;
 }
-
-a {
+.like-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+/* a {
   margin-bottom: 30px;
   padding-left: 10px;
-}
+} */
