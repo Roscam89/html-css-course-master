@@ -89,15 +89,7 @@ button:hover {
   margin-bottom: 30px;
 }
 
-/* .box-container {
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
-} */
 .color {
-  /* position: absolute;
-  top: 0;
-  left: 0; */
   width: 25px;
   height: 25px;
   background-color: black;
@@ -106,46 +98,21 @@ button:hover {
 }
 
 .color-blue {
-  /* position: absolute;
-  top: 0;
-  left: 40px;
-  width: 25px;
-  height: 25px; */
   background-color: blue;
 }
 
 .color-red {
-  /* position: absolute;
-  top: 0;
-  left: 80px;
-  width: 25px;
-  height: 25px; */
   background-color: red;
 }
 
 .color-yellow {
-  /* position: absolute;
-  top: 0;
-  left: 120px;
-  width: 25px;
-  height: 25px; */
   background-color: yellow;
 }
 
 .color-green {
-  /* position: absolute;
-  top: 0;
-  left: 160px;
-  width: 25px;
-  height: 25px; */
   background-color: green;
 }
 
 .color-brown {
-  /* position: absolute;
-  top: 0;
-  left: 200px;
-  width: 25px;
-  height: 25px; */
   background-color: brown;
 }
