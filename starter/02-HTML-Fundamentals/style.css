@@ -20,7 +20,8 @@ body {
 .code-magazine {
   font-size: 20px;
   font-style: italic;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 30px;
 }
 
 aside {
@@ -28,8 +29,7 @@ aside {
   border: 5px solid #1098ad;
   border-left: none;
   border-right: none;
-  margin: 10px 10px;
-  padding: 50px 0px;
+
 }
 
 h1,
@@ -47,7 +47,9 @@ h3 {
   font-size: 22px;
   padding: 20px;
 }
-
+.why-learn {
+  margin-bottom: 20px;
+}
 #author {
   font-style: italic;
   font-size: 14px;
@@ -61,6 +63,7 @@ h3 {
 #related-posts {
   font-size: 17px;
   text-align: center;
+  margin-top: 20px;
 }
 .related-author {
   font-size: 12px;
@@ -68,10 +71,13 @@ h3 {
 }
 .related-posts-list {
   list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: larger;
 }
 article {
-  padding: 5px;
-  margin: 5px;
+  padding: 25px;
+  margin: 25px;
 }
 
 /* .bottom-header :nth-child(3) {
@@ -98,4 +104,15 @@ a:active {
 ul,
 ol {
   margin-left: 20px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  margin-bottom: 30px;
+  padding-left: 10px;
 }
